@@ -15,7 +15,7 @@ public class StandardInput {
    		    InputStreamReader ir = new InputStreamReader(System.in);
 		    BufferedReader br = new BufferedReader(ir);
 		
-			String str = br.readLine(); //한줄 형태로 입력 받음
+			String str = br.readLine(); //라인 형태로 입력 받음
 			
 			System.out.println(str);
 			
